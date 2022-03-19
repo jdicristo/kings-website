@@ -1,5 +1,6 @@
 body {
-	background-color: #D8C7B7;
+	background-color: #000;
+	color: #B7B7B7;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
@@ -7,15 +8,17 @@ body {
 }
 
 h2 {
-	font-size: 22px;
+	color: #FFF;
+	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 30px;
-	text-align: center;
 }
 
 h3 {
+	color: #FFF;
 	font-size: 12px;
 	font-weight: bold;
+	margin-bottom: 6px;
 	text-transform: uppercase;
 }
 
@@ -31,29 +34,28 @@ p {
 	background-color: #A62E31;
 	border-radius: 10px;
 	color: #FFFFFF;
-	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
 	font-weight: bold;
 	padding: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-.cast, .crew {
-	display: inline-block;
-	vertical-align: top;
+.button.center {
+	text-align: center;
+}
+
+.centered {
+	display: block;
+	margin: 0 auto;
+	width: 175px;
 }
 
 .container {
-	margin: 280px auto 0;
-	padding: 0 30%;
-}
-
-.crew {
-	margin-right: 40%;
-}
-
-.embed-container {
-	text-align: center;
+	margin: 175px auto 0;
+	padding: 0 10%;
 }
 
 .footer {
@@ -62,11 +64,16 @@ p {
 }
 
 .header {
-	background-color: #D8C7B7;
 	height: 250px;
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+.info-container {
+	display: inline-block;
+	vertical-align: top;
+	/*width: 33%;*/
 }
 
 .logo-container {
@@ -75,8 +82,14 @@ p {
 	text-align: left;
 }
 
+.poster {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+}
+
 .tickets-container {
 	display: inline-block;
 	float: right;
-    margin: 100px 65px 0 0;
+    margin: 60px 65px 0 0;
 }
