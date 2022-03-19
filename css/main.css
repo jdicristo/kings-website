@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #000;
 	color: #B7B7B7;
@@ -60,8 +64,10 @@ p {
 
 .down-arrow {
 	color: #A82E31;
+	cursor: pointer;
 	font-size: 50px;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .embed-container {
