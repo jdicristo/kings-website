@@ -132,12 +132,21 @@ p {
 	body { font-size: 14px; }
 	h2 { text-align: center; }
 	.button { font-size: 12px; }
-	.cast-and-crew { width: 75%; }
+	.cast-and-crew {
+		margin-bottom: 40px;
+		width: 75%; 
+	}
 	.footer { margin: 50px 0;}
 	.info-container.left { width: 100%; }
-	.info-container.middle { width: 49%; }
+	.info-container.middle {
+		padding-left: 10%;
+		width: 30%;
+	}
 	.info-container.middle p { margin-top: 15px;}
-	.info-container.right { width: 49%; }
+	.info-container.right {
+		padding-left: 18%;
+		width: 30%;
+	}
 	.tablet-hidden { display: none; }
 	.tablet-visible { display: block; }
 	.tickets-container { margin: 50px 50px 15px; }
@@ -146,4 +155,17 @@ p {
 @media (max-width: 768px) {
 	.mobile-hidden { display: none; }
 	.mobile-visible { display: block; }
+}
+
+@media (max-width: 590px) {
+	.button {
+		font-size: 10px;
+		padding: 15px;
+	}
+	.info-container.middle {
+		margin-left: 5%;
+		padding-left: 0;
+		width: 40%;
+	}
+	.info-container.right { padding-left: 0; width: 49%; }
 }
