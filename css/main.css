@@ -31,7 +31,7 @@ p {
 }
 
 .button {
-	background-color: #A62E31;
+	background-color: #A82E31;
 	border-radius: 10px;
 	color: #FFFFFF;
 	cursor: pointer;
@@ -59,12 +59,9 @@ p {
 }
 
 .down-arrow {
-	bottom: 13px;
-	color: #FFF;
+	color: #A82E31;
 	font-size: 50px;
 	font-weight: bold;
-	position: absolute;
-	text-align: center;
 }
 
 .embed-container {
