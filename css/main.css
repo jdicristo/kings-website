@@ -58,13 +58,29 @@ p {
 	padding: 0 10%;
 }
 
+.down-arrow {
+	bottom: 13px;
+	color: #FFF;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+}
+
+.embed-container {
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+}
+
 .footer {
 	margin: 100px 0;
 	text-align: center;
 }
 
 .header {
-	height: 250px;
+	background-color: #000;
+	padding-bottom: 15px;
 	position: fixed;
 	top: 0;
 	width: 100%;
